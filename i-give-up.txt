@@ -1,0 +1,25 @@
+using System;
+
+namespace ConsoleApp1
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			int a, b;
+			string c;
+			c = Console.ReadLine();
+			a = Int16.Parse(c);
+			if (a % 5 != 0)
+			{
+				b = (a / 5) + 1;
+				Console.WriteLine(b);
+			}
+			else
+			{
+				b = a / 5;
+				Console.WriteLine(b);
+			}
+		}
+	}
+}

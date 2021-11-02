@@ -1,1 +1,0 @@
-print(round((int(input())) / 5 + 0.5))
